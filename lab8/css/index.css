@@ -1,32 +1,49 @@
-body {
-    font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: darkgray;
-    padding: 25px;
-    font-size: 120%;
-}
+html {
+  border: solid 20px #C23684
 
-div#content {
+}
+body.overall {
+padding: 30px;
     padding: 50px;
-    background-color: lightgray;
-    border: solid 1px #333333;
-    height: 80vh;
+  background-color: #50C236;
+    border: dashed 5px #50C236;
+    margin: 15px;
+    border-radius: 20px
 }
 
-h1, h2, h3 {
-    font-family: "Courier New", monospace;
+div.thewriting {
+  font-size: larger;
+  font: status-bar;
+  color: black
+}
+body {
+  padding: 200px
+  background-colors: blue;
+  border: 20px #FFC300
+}
+div#images.vintage{
+  padding: 40px;
+  height: 90vh;
+  float: left;
+  padding: 20px;
+  margin: 15px;
+  border: 30px;
+  border: solid 10px #C70039
+margin: 80px 20px;
+color: black
+}
+h1, h2, h3 .thewriting {
+      font-family: "sans-serif", monospace;
+      font-style: oblique;
 }
 
 img {
-    float: right;
-    width: 400px;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-    color: maroon;
-}
-a:hover {
-    text-decoration: underline;
-    text-decoration-style: wavy;
+  float: center;
+  padding: 20px;
+  margin: 15px;
+  border: 30px;
+  border: solid 10px #C70039
+margin: 80px 20px;
+color: black
+  background-color: #65B6AE
 }
