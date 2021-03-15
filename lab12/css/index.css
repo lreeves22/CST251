@@ -1,0 +1,49 @@
+html {
+  border: dashed 20px #C23684
+
+}
+body.overall {
+padding: 40px;
+    padding: 50px;
+  background-color: #50C236;
+    border: dashed 20px #50C236;
+    margin: 15px;
+    border-radius: 20px
+}
+
+div.thewriting {
+  font-size: larger;
+  font: status-bar;
+  color: black
+}
+body {
+  padding: 200px
+  background-colors: blue;
+  border: 20px #FFC300
+}
+div#images.vintage{
+  padding: 60px;
+  height: 100vh;
+  float: right;
+  padding: 20px;
+  margin: 15px;
+  border: 30px;
+  border: solid 10px #C70035
+margin: 80px 20px;
+color: black
+}
+h1, h2, h3 .thewriting {
+      font-family: "arial", monospace;
+      font-style: oblique;
+}
+
+img {
+  float: center;
+  padding: 20px;
+  margin: 15px;
+  border: 30px;
+  border: solid 10px #C70039
+margin: 80px 20px;
+color: black
+  background-color: #65B6AE
+}
