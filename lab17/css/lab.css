@@ -1,0 +1,44 @@
+.title { border; solid 10px #000000
+float: none;
+width: max-content;
+margin: 20px auto 10px auto;
+align-items: center;
+align-content: center;
+}
+
+main {
+border: solid 10px #000000
+float: left;
+width: 65%;
+min-width: 200px;
+}
+
+section {
+border: solid 10px #000000
+float: none;
+width: 95%;
+min-width: 190px;
+}
+
+aside {
+border: solid 10px #000000
+float: right;
+width: 30%;
+min-width: 90px;
+}
+
+nav {
+border: solid 10px #000000
+float: left;
+height: 100px;
+width: 20%;
+min-width: 250px;
+}
+
+footer {
+border: solid 10px #000000
+float: right;
+height: 100px;
+width: 75%;
+min-width: 800px;
+}
