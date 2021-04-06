@@ -1,0 +1,168 @@
+
+html {
+background-color:   blue;
+background-image:   url("../img/onepixel.png");
+background-size: 10%;
+
+}
+
+body { font-family: 'Anton', sans-serif;
+margin: 10px auto 10px auto;
+
+
+
+}
+#center
+{margin-top: 20px;
+margin-right: auto;
+margin-left: auto;
+border: solid transparent;
+display: block;
+align-content: center;
+align-items: center;
+align-self: center;
+text-align: center;
+}
+#content1{
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border: dashed 20px #C23684;
+  background-color: #fafbffab;
+  width: 90%;
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change {
+  0% {border: dashed 20px #2e8a08;}
+  50% {border: dotted 20px #1c7faf;}
+  100% {border: dashed 20px #2e8a08;}
+}
+
+
+
+#content2 {
+margin-top: 20px;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border: dashed 20px #C23684;
+background-color: #fafbffab;
+width: 90%;
+animation-name: change2;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+align-self: center;
+margin: 10px auto 20px auto;
+
+
+}
+
+@keyframes change2 {
+0% {border: dotted 20px #C23684;}
+50% {border: dotted 20px #e6a9a9;}
+100% {border: dotted 20px #C23684;}
+}
+#column {
+    column-count: 0;
+    display: block;
+    border: solid transparent;
+    width: 90%;
+    column-gap: 20px;
+    column-fill: auto;
+    margin: auto;
+    align-self: center;
+}
+
+
+#title {
+width: max-content;
+ffont-family: 'Dela Gothic One', cursive;
+border: solid 20px transparent;
+background-color: #ffffffe0;
+border-radius: 10px;
+margin-top: 20px;
+margin-right: auto;
+margin-left: auto;
+border: solid transparent;
+display: block;
+align-content: center;
+align-items: center;
+align-self: center;
+text-align: center;
+
+}
+
+.special2:hover>h1 {
+   font-family: 'Press Start 2P', cursive;
+   color: white;
+   text-shadow: 0 0 1px black;
+   transition: 5s;
+   transition-property: all;
+   transition-duration: 2s;
+   transition-timing-function: ease-out;
+   transition-delay: 0s;
+}
+
+
+
+}
+h1, h2, h3{
+  font-family: 'Press Start 2P', cursive;
+	padding: 15px;
+	margin: 5px auto 5px auto;
+	border: solid transparent;
+	background color: #ffffffe0;
+	border-radius: 5px;
+}
+
+.hover-border {
+  overflow: hidden;
+  border: solid transparent;
+  display: block;
+  width: 300%;
+  height: 300px;
+  margin: 10px;
+}
+
+.special:hover>img.run {
+   display: block;
+   position: relative;
+   left: 100%;
+   transition: 10s;
+   transition-property: all;
+   transition-duration: 10s;
+   transition-timing-function: ease-out;
+   transition-delay: 0s;
+
+}
+
+img.run {
+height: 300px;
+position: relative;
+left: -10px;
+}
+
+#icon-wrapper {
+  border:             solid transparent;
+  width:              auto;
+  background-color:   none;
+  overflow:           hidden;
+}
+
+#icon-right {
+  display:            inline-block;
+  float:              right;
+}
+
+#icon-left {
+  display:            inline-block;
+  float:              left;
+}
+
+#icon-left img, #icon-right img {
+  width:              100px;
+}
